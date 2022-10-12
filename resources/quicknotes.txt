@@ -1,0 +1,35 @@
+Part 1 Earthquake Visualization
+
+1. Dataset: Past Day : https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson
+JSON Summary: http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+
+2. markers (circle) should reflect magnitude based on color and size. 
+higher mags = larger 
+[-1.0, 10.0]
+	< 5 small
+	>= 5 and < 7 medium
+	>= 7 and < 10 large
+	>= 10 danger, BIG BIG
+
+greater depth = darker color
+[0, 1000]
+	0-70km, shallow - red
+	70 - 300 intermediate - yellow
+	>300 deep - green
+
+**Hint:** The depth of the earth can be found as the third coordinate for each earthquake.
+
+
+3. popups should have: magnitude ('mag'), coordinates [0=lng, 1 = lat, 2= depth], place, time/date, id, title
+Structure: 
+"title":"M 0.5 - 2km NNW of The Geysers, CA"
+"id":"nc73786111"
+"coordinates":[-122.7606659,38.7903328,1.83]
+"place":"2km NNW of The Geysers, CA"
+"mag":0.51
+"time":1664216649910
+
+4. Create legend
+
+------------------------------------------------
+Part 2 BONUS
