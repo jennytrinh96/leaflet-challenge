@@ -111,7 +111,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
             else if (depth > 30)
                 return "#fcad03";
             else if (depth > 10)
-                return "cafc03";
+                return "#cafc03";
             else 
                 return "green";
         }
