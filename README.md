@@ -23,3 +23,5 @@ In this challenge, earthquake data within the past 7 days are collected through 
    * Create a legend that will provide context for your map data.
 
 #### Screenshots
+![map1](https://user-images.githubusercontent.com/104868749/195404749-46c7c006-f425-4e85-8100-153faaea201a.png)
+![map2](https://user-images.githubusercontent.com/104868749/195404776-1c7ea98f-08b2-4115-b03f-6097efb44ea2.png)
